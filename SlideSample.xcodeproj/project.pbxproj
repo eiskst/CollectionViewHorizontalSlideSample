@@ -14,6 +14,7 @@
 		EF48DAA21F4BF1200077EC42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF48DAA01F4BF1200077EC42 /* LaunchScreen.storyboard */; };
 		EF48DAAD1F4BF1200077EC42 /* SlideSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48DAAC1F4BF1200077EC42 /* SlideSampleTests.swift */; };
 		EF48DAB81F4BF1200077EC42 /* SlideSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48DAB71F4BF1200077EC42 /* SlideSampleUITests.swift */; };
+		EF48DAC61F4BF7590077EC42 /* MyCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48DAC51F4BF7590077EC42 /* MyCollectionViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EF48DAB31F4BF1200077EC42 /* SlideSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF48DAB71F4BF1200077EC42 /* SlideSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideSampleUITests.swift; sourceTree = "<group>"; };
 		EF48DAB91F4BF1200077EC42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF48DAC51F4BF7590077EC42 /* MyCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				EF48DA971F4BF1200077EC42 /* AppDelegate.swift */,
 				EF48DA991F4BF1200077EC42 /* ViewController.swift */,
+				EF48DAC51F4BF7590077EC42 /* MyCollectionViewFlowLayout.swift */,
 				EF48DA9B1F4BF1200077EC42 /* Main.storyboard */,
 				EF48DA9E1F4BF1200077EC42 /* Assets.xcassets */,
 				EF48DAA01F4BF1200077EC42 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF48DA9A1F4BF1200077EC42 /* ViewController.swift in Sources */,
+				EF48DAC61F4BF7590077EC42 /* MyCollectionViewFlowLayout.swift in Sources */,
 				EF48DA981F4BF1200077EC42 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
